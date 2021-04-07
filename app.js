@@ -63,7 +63,7 @@ document.getElementById('product-form').addEventListener('submit', function (e) 
     } else {  
         ui.addProduct(product);
         ui.resetForm();
-        ui.showMessage('Producto added sucessfully!', 'success col-md-12 text-center mt-3');
+        ui.showMessage('Product added sucessfully!', 'success col-md-12 text-center mt-3');
     }
 });
 
